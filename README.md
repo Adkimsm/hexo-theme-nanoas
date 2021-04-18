@@ -1,2 +1,21 @@
 # hexo-theme-nanoas
-A white and simple hexo theme, originated from a Farbox theme.
+
+本主题为Hexo主题[Anatole](https://github.com/Ben02/hexo-theme-Anatole)的修改版本。
+
+本人将其功能简化，并增加一部分样式，从而形成其主题。
+
+## 主题特点
+
+- 小       ——整个文件夹去掉图片仅有0.5MB
+- 而不凡——功能全面，当静态的博客足够了
+- 简       ——没有什么花里胡哨而华丽的特效
+- 而不陋——黑暗模式、版权信息该有的都有
+- 洁       ——简洁到连分类和标签页面都没有
+- 而不同——独特的黑暗样式表绝对是独一份    ~~实则是我太垃圾~~
+
+## 主题日志
+
+### 2021-04-17
+
+- 添加完黑暗模式
+- 添加版权信息
