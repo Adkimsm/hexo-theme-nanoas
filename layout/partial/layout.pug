@@ -1,0 +1,13 @@
+doctype
+html(lang="zh-CN")
+  head
+    include head
+
+  body
+    include sidebar
+    .main
+      include nav
+
+      block content
+
+    script(src= url_for('/assets/js/main.js'))
