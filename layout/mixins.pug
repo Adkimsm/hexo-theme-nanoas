@@ -7,25 +7,25 @@ mixin make_post(item, is_detail)
 				else
 					a(href= url_for(item.path))= item.title
 		if is_detail
+			if item.zhuanzai
+				.tip
+					p.title= __('ywljt')
+					p= item.ywlj
 			.post-content!= item.content
 		else
 			.post-content
 				- var summary = item.summary || item.content
-				p!= truncate(strip_html(summary), {length: 160})
+				p!= truncate(strip_html(summary), {length: 40})
 		.post-footer: .meta
 			.info
 				span.date= date(item.date, 'YYYY-MM-DD')
 				if theme.duoshuo || theme.disqus
 					i.fa.fa-comment-o
 					a(href= url_for(item.path + "#comments"))= __('Comments')
-				if item.tags
-					i.fa.fa-tag
-					- item.categories.sort('posts').each(function(item) {
-							a.tag(href=config.root + item.path, title= item.name)= item.name + " "
-					- });
-					- item.tags.sort('posts').each(function(item) {
-							a.tag(href=config.root + item.path, title= item.name)= item.name + " "
-					- });
+				
+				- var zhuanzai = item.zhuanzai
+				if item.zhuanzai 
+					mark= __('zhuanzai')
 
 
 mixin make_pager()
@@ -39,7 +39,7 @@ mixin make_pager()
 			if page.next
 				li.next.pagbuttons
 					a.btn(role="navigation",href=url_for(next))= __('next')
-
+					
 mixin postList()
 	.archive
 		- var year = 0;

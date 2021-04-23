@@ -2,6 +2,19 @@
 favicon: /assets/images/favicon.png
 avatar: /assets/images/logo@2x.png
 
+
+page:
+  - name: Home
+    link: /
+
+  - name: 关于
+    link: /about/
+  
+  - name: 友链
+    link: /links/
+
+
+
 # Social Accounts
 # 只填写用户名即可
 twitter: 
@@ -24,4 +37,3 @@ valine:
   verify: false # true/false:verify code
   avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   placeholder: Just go go # comment box placeholder
-

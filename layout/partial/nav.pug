@@ -1,27 +1,13 @@
 .page-top.animated.fadeInDown
   .nav
-    li
-      if is_home()
-        a.current(href="/")= __('Home')					
-      else
-        a(href="/")= __('Home')	
-    li
-      if is_current('about')
-        a.current(href="/about")= __('About')			
-      else
-        a(href="/about")= __('About')
-    li
-      if is_archive()
-        a.current(href="/archives")= __('Archive')
-      else
-        a(href="/archives")= __('Archive')
-    li
-      if is_current('links')
-        a.current(href="/links")= __('Links')					
-      else
-        a(href="/links")= __('Links')		
+    //- for循环
+    for page in theme.page
+          li
+            a(href=page.link)= page.name			
+
   .information
     .back_btn
+      //- 返回上一页
       li
         if is_post()
           a.fa.fa-chevron-left(onclick="window.history.go(-1)") 

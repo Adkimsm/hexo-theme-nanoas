@@ -2,7 +2,7 @@
   "name": "hexo-theme-NanoAs",
   "version": "1.0.0",
   "description": "A white and simple hexo theme, originated from a Farbox theme",
-  "main": "index.js",
+  "main": "scripts/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/adkinsm2020/hexo-theme-nanoas"
@@ -17,7 +17,5 @@
   "bugs": {
     "url": "https://github.com/adkinsm2020/hexo-theme-nanoas/issues"
   },
-  "homepage": "http://adkinsm2020.github.io/hexo-theme-nanoas",
-  "devDependencies": {
-  }
+  "homepage": "http://github.com/adkinsm2020/hexo-theme-nanoas#readme"
 }

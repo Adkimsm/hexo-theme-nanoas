@@ -33,14 +33,14 @@ const getLS = (k) => {
 ---作者写的辣鸡黑暗模式---
 -----------------------
 */
-
+//这个黑暗模式不适用于部署在子目录里的hexo用户，不如用vercel吧。
 function dark_mode() {
     //先定义一些常量
     const lightcss = document.getElementById("lightcss");
     const dark_mode_power = document.getElementById("darkpower");
     const dark_mode_ls = getLS("darkmode");
     const blogcss = document.getElementById("blogcss");
-
+    //使劲if
     if (dark_mode_ls) {
         lightcss.href = "/assets/css/style.css";
         blogcss.href = "/assets/css/blog_basic.css";
@@ -53,8 +53,8 @@ function dark_mode() {
         setLS("darkmode", "true");
     }
 }
-
-window.onload = () => {
+function darkpower() {
+//执行
     if (getLS("darkmode")) {
         const lightcss = document.getElementById("lightcss");
         const dark_mode_power = document.getElementById("darkpower");
@@ -64,3 +64,5 @@ window.onload = () => {
         dark_mode_power.className = "fa fa-sun-o";
     }
 }
+//果断抛弃onload，影响速度
+darkpower();
