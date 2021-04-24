@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+body {
+    background-image: linear-gradient(120deg, #4f0088 0%, #000000 100%);
+    height: 100vh;
+}
+
+div {
+    background: rgba(0, 0, 0, 0);
+    width: 70vw;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+    box-shadow: 0 0 150px -20px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+P {
+    font-family: "Share Tech Mono", monospace;
+    color: #ffffff26;
+    font-size: 350px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+@-webkit-keyframes slide {
+    from {
+        right: -100px;
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        opacity: 0;
+    }
+    to {
+        right: 15px;
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes slide {
+    from {
+        right: -100px;
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        opacity: 0;
+    }
+    to {
+        right: 15px;
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        opacity: 1;
+    }
+}

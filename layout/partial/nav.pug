@@ -13,9 +13,14 @@
           a.fa.fa-chevron-left(onclick="window.history.go(-1)") 
         else
           a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;")
-    
-    .back_btn
-      li
-          a.fa.fa-moon-o#darkpower(onclick="dark_mode()")
+
+    if theme.darkmodep == false
+      .back_btn(style="display:none;")
+    else
+      if theme.darkmodep == true
+        .back_btn
+          li
+            a.fa.fa-moon-o#darkpower(onclick="dark_mode()")
+            
     .avatar
       img(src=theme.avatar)

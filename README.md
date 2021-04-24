@@ -7,6 +7,7 @@
 ## 主题预览
 
 - [Adkinsm BLOG](https://www.adkinsm.top/)
+
  你也可以提交你的链接到 Issues.
 
 ## 主题特点
@@ -20,9 +21,33 @@
 
 ~~则是我太垃圾~~
 
+## License
+
+本开源项目根据 [MIT 开源许可协议](./LICENCE) 开放源代码。
+
+## Credits
+
+本主题基本框架来自 [Hexo-Theme-Anatole](https://github.com/Ben02/hexo-theme-Anatole)
+
+主题黑暗模式参考了 [Sukka大佬](https://blog.skk.moe/post/hello-darkmode-my-old-friend/) 的Local Storage机制
+
+友链页面的按钮相关CSS来自 [Hexo-Theme-Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
+
+_data文件夹配置机制参考了 [Hexo-Theme-Yun](https://github.com/YunYouJun/hexo-theme-yun)
+
+404主题模板CSS来自 [自主题娱乐网](http://www.zitheme.com) 的 HTML403模板
+
 ## 主题日志
 
+### 2021-04-24
+
+- 加入_data文件夹配置功能，防止因更新造成的数据丢失
+- 加入Links友链模板
+- 加入404
+
 ### 2021-04-23
+
+**Tag: 1.52**
 
 - 加入启动提示
 - 配置文档加入page配置项控制Nav
@@ -40,6 +65,8 @@
 - 加强深色/浅色模式切换效果
 
 ### 2021-04-17
+
+**tag: 1.00**
 
 - 添加完黑暗模式
 - 添加版权信息

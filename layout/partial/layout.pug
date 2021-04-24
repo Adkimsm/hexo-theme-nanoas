@@ -10,4 +10,11 @@ html(lang="zh-CN")
 
       block content
 
-    script(src= url_for('/assets/js/main.js'))
+
+    if theme.darkmodep == true
+      script(src=url_for('/assets/js/main.js'))
+    else 
+      if theme.darkmodep == false
+        script
+          //123
+        

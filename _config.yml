@@ -1,7 +1,16 @@
-# Blog Image
+# 基本信息
+
+# ---------------------------------------------------------------
+# 侧边栏、Header的头像
+# ---------------------------------------------------------------
+
 favicon: /assets/images/favicon.png
 avatar: /assets/images/logo@2x.png
 
+
+# ---------------------------------------------------------------
+# 顶部Nav
+# ---------------------------------------------------------------
 
 page:
   - name: Home
@@ -13,9 +22,18 @@ page:
   - name: 友链
     link: /links/
 
+# Darkmode按钮，如果是部署在子目录的童鞋(例如http://1.2.com/blog ……这类网址)的，请保持False.
+# 我推荐您使用文件放在子目录，然后CNAME的方式，这样也便于您以后的网站架设（这样是可以采用黑暗模式True的）
+# 当然，我更推荐您使用Vercel＋Hexo框架部署的方式，比GitHub更快，响应速度更高，也更容易被国内搜索引擎收录(~~最重要的是免费~~)。
+# 您可以直接Fork[我博客仓库的内容](https://github.com/adkinsmpage/hexo-blog)
 
+darkmodep: false
+# darkmodep: true
 
-# Social Accounts
+# ---------------------------------------------------------------
+# 联系方式
+# ---------------------------------------------------------------
+
 # 只填写用户名即可
 twitter: 
 rss: #一般写 /atom.xml
@@ -24,7 +42,11 @@ instagram:
 github: adkinsm2020
 facebook: 
 
-# Comment
+
+# ---------------------------------------------------------------
+# 评论
+# ---------------------------------------------------------------
+
 duoshuo: #shortname
 disqus: #ShortName
 gentie: #productKey
@@ -37,3 +59,22 @@ valine:
   verify: false # true/false:verify code
   avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   placeholder: Just go go # comment box placeholder
+
+
+#---------------------------
+# 友链
+#---------------------------
+
+links:
+    - {
+      title: 'Adkinsm Home',
+      intro: 'Adkinsm 主页',
+      link: 'https://www.adkinsm.top/',
+      image: '/assets/images/favicon.png'
+    }
+    - {
+      title: 'Adkinsm BLOG',
+      intro: 'Adkinsm 博客',
+      link: 'https://blog.adkinsm.top/',
+      image: '/assets/images/favicon.png'
+    }

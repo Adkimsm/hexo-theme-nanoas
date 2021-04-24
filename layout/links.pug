@@ -1,0 +1,29 @@
+
+extends partial/layout
+
+block site_title
+    != page.title + " · " + config.title
+
+block description
+    - var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+    meta(name="description", content=desc)
+
+block content
+  .autopagerize_page_element: .content: .post-page
+    .post.animated.fadeInDown
+        .post-title
+            h2= __('Links')
+        div.flink#article-container
+            link(rel="stylesheet", href=url_for('/assets/css/page/link.css'))
+            div.flink-list
+                for links in theme.links
+                    div.flink-list-item
+                        a(href=links.link)
+                            img(src=links.image)
+                            span(class="flink-item-name")= links.title
+                            span(class="flink-item-desc")= links.intro
+                        
+            
+    
+    if page.comments
+        include partial/comments
