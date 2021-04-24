@@ -68,10 +68,6 @@ _data文件夹配置机制参考了 [Hexo-Theme-Yun](https://github.com/YunYouJu
 
 **tag: 1.00**
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 37c53ceebd65dfd77fac3957df697d5c6be59789
 - 添加完黑暗模式
 - 添加版权信息
 
