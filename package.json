@@ -1,7 +1,7 @@
 {
   "name": "hexo-theme-NanoAs",
-  "version": "1.0.0",
-  "description": "A white and simple hexo theme, originated from a Farbox theme",
+  "version": "1.5.2",
+  "description": "A Simple Hexo Theme.It Is Very Simple,But Is Very Beautiful Too.",
   "main": "scripts/index.js",
   "repository": {
     "type": "git",

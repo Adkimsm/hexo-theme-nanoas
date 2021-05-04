@@ -13,7 +13,7 @@ block content
     .post.animated.fadeInDown
         .post-title
             h2= __('Links')
-        div.flink#article-container
+        .flink#article-container
             link(rel="stylesheet", href=url_for('/assets/css/page/link.css'))
             div.flink-list
                 for links in theme.links
@@ -23,7 +23,7 @@ block content
                             span(class="flink-item-name")= links.title
                             span(class="flink-item-desc")= links.intro
                         
-            
+        .post-content!= page.content
     
     if page.comments
         include partial/comments
