@@ -149,6 +149,7 @@ a:active {
 
 /* For Header */
 .page-top {
+  top: 0;
   width: 60%;
   position: fixed;
   right: 0;
@@ -679,7 +680,7 @@ a.btn {
     width: 100%;
     position: absolute;
     border-right: none;
-    z-index: 1;
+    z-index: -3;
   }
 
   .sidebar .logo-title {
@@ -703,9 +704,9 @@ a.btn {
   }
 
   .content {
-    margin-top: 420px;
+    margin-top: calc(100% + 10px);
     width: 100%;
-    z-index: 2;
+    z-index: -5;
     position: absolute;
   }
 
@@ -716,4 +717,21 @@ a.btn {
   .share {
     display: grid;
   }
+}
+
+.gototop {
+  position: fixed;
+  right: 50px;
+  z-index: 999;
+  padding: .725rem;
+  background: rgba(15, 14, 14, 0.9);
+  border: 1px solid #444;
+  border-radius: 2.5rem;
+  -webkit-transition: .6s ease all;
+  -moz-transition: .6s ease all;
+  -ms-transition: .6s ease all;
+  -o-transition: .6s ease all;
+  transition: .6s ease all;
+  cursor: pointer;
+  bottom: 100px;
 }

@@ -24,7 +24,7 @@ page:
 
 # Darkmode按钮，如果是部署在子目录的童鞋(例如http://1.2.com/blog ……这类网址)的，请保持False.
 # 我推荐您使用文件放在子目录，然后CNAME的方式，这样也便于您以后的网站架设（这样是可以采用黑暗模式True的）
-# 当然，我更推荐您使用Vercel＋Hexo框架部署的方式，比GitHub更快，响应速度更高，也更容易被国内搜索引擎收录(~~最重要的是免费~~)。
+# 当然，我更推荐您使用Vercel＋Hexo框架部署的方式，比GitHub更快，响应速度更高，也更容易被国内搜索引擎收录，还可以使用黑暗模式(~~最重要的是免费~~)。
 # 您可以直接Fork[我博客仓库的内容](https://github.com/adkinsmpage/hexo-blog)
 
 darkmodep: false
