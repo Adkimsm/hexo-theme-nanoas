@@ -16,5 +16,4 @@ module.exports = (hexo) => {
   if (data.test && process.env.NODE_ENV === "test") {
     merge(hexo.theme.config, data.test);
   }
-
 };
