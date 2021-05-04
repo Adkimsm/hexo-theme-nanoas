@@ -28,5 +28,5 @@ __   _       ___   _____   __   _   _____       ___   _____
 
                    Open Source By MIT
 
-
+               Thank You For Use NANOAS !
 `)});

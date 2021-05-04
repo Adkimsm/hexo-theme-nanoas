@@ -404,43 +404,13 @@ hr {
     border: 0;
     border-top: 4px solid #efefef;
     margin: 3.2em 0;
-    padding: 0
-}
-
-blockquote {
-    box-sizing: border-box;
-    margin: 1.6em 0 1.6em -2.2em;
-    padding: 1.6em;
-    border-left: #4a4a4a .4em solid
-}
-
-blockquote p {
-    margin: .8em 0
-}
-
-blockquote small {
-    display: inline-block;
-    margin: .8em 0 .8em 1.5em;
-    font-size: .9em;
-    color: #ccc
-}
-
-blockquote small:before {
-    content: '\2014 \00A0'
-}
-
-blockquote cite {
-    font-weight: 700
-}
-
-blockquote cite a {
-    font-weight: 400
+    padding: 0;
 }
 
 mark {
     background-color: #ffb86c;
     border-radius: 3px;
-    padding: 1px 3px 1px 3px
+    padding: 1px 3px 1px 3px;
 }
 
 code,
@@ -721,4 +691,30 @@ table tbody>tr:nth-child(odd)>th {
     #fb_comments .comment_body {
         margin-left: 57px
     }
+}
+
+blockquote {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    min-height: 24px;
+    font-size: 18px;
+    color: #999
+}
+
+blockquote:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    height: 14px;
+    width: 18px;
+    background-image: url(https://gss0.bdstatic.com/5bd1bjqh_Q23odCf/static/newsdetail/img/BdrainrwLandingMainContent/quote.png);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+blockquote {
+    color: #999
 }

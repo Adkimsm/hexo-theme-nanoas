@@ -53,8 +53,9 @@ function dark_mode() {
         setLS("darkmode", "true");
     }
 }
+
 function darkpower() {
-//执行
+    //执行
     if (getLS("darkmode")) {
         const lightcss = document.getElementById("lightcss");
         const dark_mode_power = document.getElementById("darkpower");
@@ -66,3 +67,15 @@ function darkpower() {
 }
 //果断抛弃onload，影响速度
 darkpower();
+
+/* 
+-----------------------
+--------平滑滚动--------
+-----------------------
+*/
+function phgd() {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
