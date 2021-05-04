@@ -702,15 +702,11 @@ a.btn {
   .footer {
     display: none;
   }
-
-  .share {
-    display: grid;
-  }
 }
 
 .gototop {
   position: fixed;
-  right: 15px;
+  right: 50px;
   z-index: 999;
   padding: .725rem;
   background: rgba(250, 250, 250, 0.9);

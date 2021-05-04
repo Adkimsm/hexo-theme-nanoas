@@ -713,10 +713,6 @@ a.btn {
   .footer {
     display: none;
   }
-
-  .share {
-    display: grid;
-  }
 }
 
 .gototop {
