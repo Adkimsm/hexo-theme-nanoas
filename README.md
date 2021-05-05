@@ -55,6 +55,7 @@ _data文件夹配置机制参考了 [Hexo-Theme-Yun](https://github.com/YunYouJu
 - 加入_data文件夹配置功能，防止因更新造成的数据丢失
 - 加入Links友链模板
 - 加入404
+- 添加Darkmode开关
 
 ### 2021-04-23
 
