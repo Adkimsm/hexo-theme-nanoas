@@ -41,6 +41,8 @@ _data文件夹配置机制参考了 [Hexo-Theme-Yun](https://github.com/YunYouJu
 
 ### 2021-05-05
 
+**Tag: 1.60**
+
 - 加入返回顶部按钮的JS平滑滚动特效
 - 修改了引用Blockquote，采用百家号样式
 - 新增繁体中文 i18n 支持
