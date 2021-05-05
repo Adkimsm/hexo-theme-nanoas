@@ -413,17 +413,17 @@ mark {
     padding: 1px 3px 1px 3px;
 }
 
-code,
-tt {
-    padding: 1px 3px;
-    font-family: Inconsolata, monospace, sans-serif;
-    font-size: .85em;
-    white-space: pre-wrap;
-    border: 1px solid #e3edf3;
-    background: #f7f7f9;
-    color: #d14;
-    border-radius: 2px
-}
+code {
+    font-size: 0.9em;
+    background-color: #303233;
+    padding: 0.3em;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+    border: 2px solid #666;
+    border-radius: 0.25rem;
+    font-family: 'jetbrainsmono';
+    color: aliceblue;
+  }
 
 pre {
     -moz-box-sizing: border-box;
