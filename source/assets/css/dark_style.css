@@ -29,7 +29,7 @@ html *::-webkit-scrollbar-thumb {
 
 body {
   color: #E6E6E6;
-  font-family: 'Microsoft YaHei';
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong;
   font-size: 15px;
   width: 100%;
   margin: 0 auto 30px auto;
@@ -281,6 +281,7 @@ a:active {
 }
 
 .post .post-title h1 {
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong;
   text-transform: uppercase;
   font-size: 30px;
   letter-spacing: 5px;
