@@ -12,11 +12,11 @@ hexo-theme-nanoas
 
 
 
-![](./img-md/home.png)
+![预览](./img-md/home.png)
 
-![](./img-md/links.png)
+![预览](./img-md/links.png)
 
-![](./img-md/mobile.png)
+![预览](./img-md/mobile.png)
 
 ## 主题特点
 
