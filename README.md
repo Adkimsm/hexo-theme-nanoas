@@ -1,4 +1,4 @@
-# hexo-theme-nanoas
+hexo-theme-nanoas
 
 本主题为Hexo主题[Anatole](https://github.com/Ben02/hexo-theme-Anatole)的修改版本。
 
@@ -9,6 +9,14 @@
 - [Adkinsm BLOG](https://www.adkinsm.top/)
 
  你也可以提交你的链接到 Issues.
+
+
+
+![](./img-md/home.png)
+
+![](./img-md/links.png)
+
+![](./img-md/mobile.png)
 
 ## 主题特点
 
@@ -38,6 +46,13 @@ _data文件夹配置机制参考了 [Hexo-Theme-Yun](https://github.com/YunYouJu
 404主题模板CSS来自 [自主题娱乐网](http://www.zitheme.com) 的 HTML403模板
 
 ## 主题日志
+
+### 2021-05-07 
+
+**tag: 1.65**
+
+- 更换标题字体为宋体
+  - 为最后一个版本，push后将停止更新
 
 ### 2021-05-05
 

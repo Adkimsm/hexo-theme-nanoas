@@ -26,10 +26,8 @@ html *::-webkit-scrollbar-thumb {
   border-radius: 4px
 }
 
-
 body {
   color: #E6E6E6;
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong;
   font-size: 15px;
   width: 100%;
   margin: 0 auto 30px auto;
@@ -281,7 +279,6 @@ a:active {
 }
 
 .post .post-title h1 {
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong;
   text-transform: uppercase;
   font-size: 30px;
   letter-spacing: 5px;
@@ -289,6 +286,7 @@ a:active {
 }
 
 .post .post-title h2 {
+  font-family: 'STZhongsong';
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 28px;
@@ -311,10 +309,6 @@ a:active {
   text-decoration: none;
   letter-spacing: 1px;
   color: #E6E6E6;
-}
-
-.post .post-title a:hover {
-  text-decoration: underline;
 }
 
 .post .post-content a {
@@ -371,35 +365,6 @@ a:active {
 
 .post .post-footer .meta i {
   margin-right: 6px;
-}
-
-.post .post-footer .tags {
-  padding-bottom: 15px;
-  font-size: 13px;
-}
-
-.post .post-footer .tags ul {
-  list-style-type: none;
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-
-.post .post-footer .tags ul li {
-  list-style-type: none;
-  margin: 0;
-  padding-right: 5px;
-  display: inline;
-}
-
-.post .post-footer .tags a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.44);
-  font-weight: 400;
-}
-
-.post .post-footer .tags a:hover {
-  text-decoration: none;
 }
 
 .pagination {
@@ -694,14 +659,10 @@ a.btn {
   }
 
   .content {
-    margin-top: calc(100% + 10px);
+    margin-top: 780px;
     width: 100%;
     z-index: -5;
     position: absolute;
-  }
-
-  .footer {
-    display: none;
   }
 }
 

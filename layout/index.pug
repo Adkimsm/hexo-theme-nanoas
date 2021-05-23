@@ -1,6 +1,7 @@
 extends partial/layout
 block content
-	.autopagerize_page_element: .content
+	.autopagerize_page_element: .content <hr>
+	
 		- page.posts.each(function (item) {
 			include mixins
 			+make_post(item, false)
